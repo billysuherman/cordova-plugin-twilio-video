@@ -19,8 +19,8 @@ if (process.env.TARGET) {
   // Add java files where you want to add R.java imports in the following array
 
     var filestoreplace = [
-        "platforms/android/src/android/ConversationActivity.java",
-        "platforms/android/src/android/Dialog.java"
+        "platforms/android/src/com/ekreative/cordova/videoconversations/ConversationActivity.java",
+        "platforms/android/src/com/ekreative/cordova/videoconversations/Dialog.java"
     ];
     filestoreplace.forEach(function(val, index, array) {
         if (fs.existsSync(val)) {
